@@ -76,6 +76,9 @@ class _SignAuthState extends State<SignAuth> {
                       _userName = value;
                     },
                   ),
+                SizedBox(
+                  height: 10,
+                ),
                 TextFormField(
                   key: ValueKey('password'),
                   validator: (value) {
