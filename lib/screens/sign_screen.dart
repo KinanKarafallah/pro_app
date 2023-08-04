@@ -56,7 +56,7 @@ class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Damascus Uni App || Sign In')),
+      appBar: AppBar(title: Text('AI DIGNOSE || Sign In')),
       body: SignAuth(_submitAuth, _isLogging),
     );
   }
